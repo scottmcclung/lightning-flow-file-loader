@@ -1,0 +1,18 @@
+<!-- nkFlowFileUploadCmp -->
+<template>
+    <lightning-file-upload label={label} title={title} record-id={recordId}
+                           accept={allowedFileTypes} multiple={allowMultipleFiles}
+                           onuploadfinished={handleUploadFinished} disabled={isDisabled}>
+    </lightning-file-upload>
+
+    <template if:true={hasUploadedFiles}>
+        <div class="slds-p-top_medium">
+            <p class="slds-text-color_weak slds-text-body_small">Uploaded files</p>
+            <template for:each={files} for:item="file">
+                <div class="slds-p-top_x-small" key={file.documentId}>
+                    <c-nk-flow-file-upload-item record-id={file.documentId} ondelete={deleteFile}></c-nk-flow-file-upload-item>
+                </div>
+            </template>
+        </div>
+    </template>
+</template>

@@ -1,0 +1,30 @@
+<!-- nkFlowFileUploadItem -->
+<template>
+    <div class="slds-hide">
+        <lightning-record-form record-id={recordId} object-api-name="ContentDocument"
+                               onload={onRecordLoaded} fields={fields}>
+        </lightning-record-form>
+    </div>
+    <div class="slds-card">
+        <div class="slds-p-around_small">
+            <div class="slds-media slds-media_center">
+                <template if:true={record}>
+                    <div class="slds-media__figure">
+                        <lightning-icon icon-name="doctype:unknown" alternative-text="File"></lightning-icon>
+                    </div>
+                    <div class="slds-media__body">
+                        <p>{filename}</p>
+                        <p class="slds-text-color_weak">{formattedFilesize}</p>
+                    </div>
+                    <div class="slds-media__figure slds-media__figure_reverse">
+                        <lightning-icon icon-name="utility:delete" alternative-text="Delete File"
+                                        size="x-small" variant="error" onclick={deleteFile}></lightning-icon>
+                    </div>
+                </template>
+                <template if:true={showSpinner}>
+                    <lightning-spinner alternative-text="Deleting" size="small"></lightning-spinner>
+                </template>
+            </div>
+        </div>
+    </div>
+</template>

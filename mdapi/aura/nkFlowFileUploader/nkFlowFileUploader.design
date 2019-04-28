@@ -1,0 +1,17 @@
+<design:component>
+    <design:attribute name="label" label="File Upload Label"
+                      description="The text on the file upload button."/>
+    <design:attribute name="recordId" label="Related Record ID"
+                      description="The ID of the record to associate the file with.  If no value is passed, the component is disabled."/>
+    <design:attribute name="allowedFileTypes" label="Accepted Formats"
+                      description="The accepted file types.  Enter a comma-separated list of the file extensions (such as .jpg) that the user can upload."/>
+    <design:attribute name="allowMultipleFiles" label="Allow Multiple Files"
+                      description="Let the user upload multiple files."/>
+    <design:attribute name="disabled" label="Disabled"/>
+    <design:attribute name="title" label="Hover Text"
+                      description="The tooltip to display when the user hovers over the component."/>
+    <design:attribute name="fileIds" label="Content Document IDs"
+                      description="The IDs of the uploaded files. Store this value in a text collection variable. (Output)"/>
+    <design:attribute name="fileNames" label="Uploaded File Names"
+                      description="The names of the uploaded files.  Store this value in a text collection variable. (Output)"/>
+</design:component>

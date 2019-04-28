@@ -28,5 +28,9 @@ ehthumbs.db
 $RECYCLE.BIN/
 
 #Illuminated Cloud project files
-/.idea
-/IlluminatedCloud
+.idea
+IlluminatedCloud
+
+#VSCode project files
+.vscode
+

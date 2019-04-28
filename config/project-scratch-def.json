@@ -1,10 +1,12 @@
 {
-  "orgName": "scott Company",
+  "orgName": "nkFlowFileUploader",
   "edition": "Developer",
   "features": [],
-  "settings": {
-    "orgPreferenceSettings": {
-      "s1DesktopEnabled": true
-    }
+  "orgPreferences": {
+    "enabled": [],
+    "disabled": [
+      "S1EncryptedStoragePref2",
+      "S1OfflinePref"
+    ]
   }
 }

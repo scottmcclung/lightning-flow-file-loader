@@ -1,0 +1,20 @@
+<aura:component access="global"
+                description="nkFlowFileUploader"
+                implements="lightning:availableForFlowScreens">
+
+    <aura:attribute name="label" type="String"/>
+    <aura:attribute name="allowedFileTypes" type="String"/>
+    <aura:attribute name="recordId" type="String"/>
+    <aura:attribute name="allowMultipleFiles" type="Boolean"/>
+    <aura:attribute name="disabled" type="Boolean"/>
+    <aura:attribute name="title" type="String"/>
+    <aura:attribute name="fileIds" type="String[]"/>
+    <aura:attribute name="fileNames" type="String[]"/>
+
+    <c:nkFlowFileUploadCmp label="{!v.label}"
+                           title="{!v.title}"
+                           recordId="{!v.recordId}"
+                           allowedFileTypes="{!v.allowedFileTypes}"
+                           allowMultipleFiles="{!v.allowMultipleFiles}"
+                           onchange="{!c.updateFiles}"/>
+</aura:component>
