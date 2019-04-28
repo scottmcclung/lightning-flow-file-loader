@@ -30,6 +30,7 @@ Click here to install the component to your sandbox.
 #### Any environment
 
 Click here to install the component as an unlocked package.
+
   * Production or Developer orgs: [https://login.salesforce.com/packaging/installPackage.apexp?p0=04t1U000007c5HyQAI](https://login.salesforce.com/packaging/installPackage.apexp?p0=04t1U000007c5HyQAI)
   * Sandbox orgs: [https://test.salesforce.com/packaging/installPackage.apexp?p0=04t1U000007c5HyQAI](https://test.salesforce.com/packaging/installPackage.apexp?p0=04t1U000007c5HyQAI)
 
