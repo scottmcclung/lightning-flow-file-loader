@@ -15,21 +15,28 @@ There are multiple ways to install the component into one of your environments.
 
 #### Scratch org
 
-[![Deploy to SFDX](https://deploy-to-sfdx.com/dist/assets/images/DeployToSFDX.svg)](https://deploy-to-sfdx.com?template=https://github.com/scottmcclung/lightning-flow-file-loader.git)
 Click here to install this into a scratch org and try it out.
+
+[![Deploy to SFDX](https://deploy-to-sfdx.com/dist/assets/images/DeployToSFDX.svg)](https://deploy-to-sfdx.com?template=https://github.com/scottmcclung/lightning-flow-file-loader.git)
+
 
 #### Sandbox
 
-[![Deploy to Salesforce](https://raw.githubusercontent.com/afawcett/githubsfdeploy/master/deploy.png)](https://githubsfdeploy.herokuapp.com?owner=scottmcclung&repo=lightning-flow-file-loader)
 Click here to install the component to your sandbox.
+
+[![Deploy to Salesforce](https://raw.githubusercontent.com/afawcett/githubsfdeploy/master/deploy.png)](https://githubsfdeploy.herokuapp.com?owner=scottmcclung&repo=lightning-flow-file-loader)
+
 
 #### Any environment
 
 Click here to install the component as an unlocked package.
-* Production or Developer orgs: [https://login.salesforce.com/packaging/installPackage.apexp?p0=04t1U000007c5HyQAI](https://login.salesforce.com/packaging/installPackage.apexp?p0=04t1U000007c5HyQAI)
-* Sandbox orgs: [https://test.salesforce.com/packaging/installPackage.apexp?p0=04t1U000007c5HyQAI](https://test.salesforce.com/packaging/installPackage.apexp?p0=04t1U000007c5HyQAI)
+  * Production or Developer orgs: [https://login.salesforce.com/packaging/installPackage.apexp?p0=04t1U000007c5HyQAI](https://login.salesforce.com/packaging/installPackage.apexp?p0=04t1U000007c5HyQAI)
+  * Sandbox orgs: [https://test.salesforce.com/packaging/installPackage.apexp?p0=04t1U000007c5HyQAI](https://test.salesforce.com/packaging/installPackage.apexp?p0=04t1U000007c5HyQAI)
 
-Using the [sfdx cli](https://developer.salesforce.com/tools/sfdxcli) and [Shane McLaughlin's sfdx plugin](https://github.com/mshanemc/shane-sfdx-plugins)
+
+#### Using SFDX
+
+Installation using the [sfdx cli](https://developer.salesforce.com/tools/sfdxcli) and [Shane McLaughlin's sfdx plugin](https://github.com/mshanemc/shane-sfdx-plugins)
 ~~~~
 sfdx plugins:install shane-sfdx-plugins
 sfdx shane:github:package:install -g scottmcclung -r lightning-flow-file-loader
