@@ -6,7 +6,9 @@ This file uploader component works exactly the same as the OOB flow component, w
 * Allows the uploaded files to be deleted if a mistake was made.
 * Enforces the 1 file limit if multiple uploads are not allowed.
 
-
+<video style="display:block; width:100%; height:auto;" autoplay controls loop="loop">
+       <source src="images/FileUploadDemo.mp4" type="video/mp4" />
+</video>
 
 
 ## Installation
@@ -29,10 +31,10 @@ Click here to install the component to your sandbox.
 
 #### Any environment
 
-Click here to install the component as an unlocked package.
+Use one of these links to install the component as an unlocked package.
 
-  * Production or Developer orgs: [https://login.salesforce.com/packaging/installPackage.apexp?p0=04t1U000007c5HyQAI](https://login.salesforce.com/packaging/installPackage.apexp?p0=04t1U000007c5HyQAI)
-  * Sandbox orgs: [https://test.salesforce.com/packaging/installPackage.apexp?p0=04t1U000007c5HyQAI](https://test.salesforce.com/packaging/installPackage.apexp?p0=04t1U000007c5HyQAI)
+  * Production or Developer orgs: [https://login.salesforce.com/packaging/installPackage.apexp?p0=04t1U000007cBXfQAM](https://login.salesforce.com/packaging/installPackage.apexp?p0=04t1U000007cBXfQAM)
+  * Sandbox orgs: [https://test.salesforce.com/packaging/installPackage.apexp?p0=04t1U000007cBXfQAM](https://test.salesforce.com/packaging/installPackage.apexp?p0=04t1U000007cBXfQAM)
 
 
 #### Using SFDX
