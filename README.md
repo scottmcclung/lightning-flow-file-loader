@@ -41,3 +41,10 @@ Installation using the [sfdx cli](https://developer.salesforce.com/tools/sfdxcli
 sfdx plugins:install shane-sfdx-plugins
 sfdx shane:github:package:install -g scottmcclung -r lightning-flow-file-loader
 ~~~~
+
+## Configuration
+
+Configuration is exactly the same as the File Upload component provided by Salesforce.
+View the documentation: 
+[https://help.salesforce.com/articleView?id=flow_ref_elements_screencmp_fileupload.htm&type=5](https://help.salesforce.com/articleView?id=flow_ref_elements_screencmp_fileupload.htm&type=5)
+
