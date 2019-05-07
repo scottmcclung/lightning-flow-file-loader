@@ -15,6 +15,7 @@
                     <div class="slds-media__body">
                         <p>{filename}</p>
                         <p class="slds-text-color_weak">{formattedFilesize}</p>
+                        <p if:true={error} class="slds-text-color_error">{error}</p>
                     </div>
                     <div class="slds-media__figure slds-media__figure_reverse">
                         <lightning-icon icon-name="utility:delete" alternative-text="Delete File"

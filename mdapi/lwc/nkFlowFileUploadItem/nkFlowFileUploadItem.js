@@ -9,6 +9,7 @@ export default class FlowFileUploadItem extends LightningElement {
     @api recordId
     @track record
     @track showSpinner
+    @track error;
 
     fields = [TITLE, FILEEXTENSION, FILETYPE, CONTENTSIZE]
 
@@ -46,7 +47,11 @@ export default class FlowFileUploadItem extends LightningElement {
                 detail: this.recordId
             }))
         }).catch(error => {
-            console.log('Error:', error)
+            console.log('File error: ', JSON.stringify(error))
+            if(error.body && error.body.message) {
+                this.error = error.body.message
+            }
+            this.disableSpinner()
         })
     }
 
