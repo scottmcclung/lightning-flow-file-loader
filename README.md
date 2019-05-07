@@ -10,6 +10,7 @@ This file uploader component works exactly the same as the OOB flow component, w
        <source src="images/FileUploadDemo.mp4" type="video/mp4" />
 </video>
 
+<img src="images/FileUploadDemo.gif" />
 
 ## Installation
 
