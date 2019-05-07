@@ -6,11 +6,6 @@ This file uploader component works exactly the same as the OOB flow component, w
 * Allows the uploaded files to be deleted if a mistake was made.
 * Enforces the 1 file limit if multiple uploads are not allowed.
 
-<video style="display:block; width:100%; height:auto;" autoplay controls loop="loop">
-       <source src="images/FileUploadDemo.mp4" type="video/mp4" />
-</video>
-
-<img src="images/FileUploadDemo.gif" />
 ![FileUploadDemo](images/FileUploadDemo.gif)
 
 ## Installation
