@@ -2,11 +2,10 @@
   "orgName": "nkFlowFileUploader",
   "edition": "Developer",
   "features": [],
-  "orgPreferences": {
-    "enabled": [],
-    "disabled": [
-      "S1EncryptedStoragePref2",
-      "S1OfflinePref"
-    ]
+  "settings": {
+    "mobileSettings": {
+        "enableS1EncryptedStoragePref2": false,
+        "enableS1OfflinePref": false
+    }
   }
 }
