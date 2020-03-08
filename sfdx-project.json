@@ -4,8 +4,8 @@
             "path": "force-app",
             "default": true,
             "package": "Lightning Flow File Upload Component",
-            "versionName": "ver 1.0.1",
-            "versionNumber": "1.0.1.NEXT"
+            "versionName": "ver 1.0.2",
+            "versionNumber": "1.0.2.NEXT"
         }
     ],
     "namespace": "",
@@ -15,6 +15,8 @@
         "Lightning Flow File Upload Component": "0Ho1U00000000BOSAY",
         "Lightning Flow File Upload Component@0.1.0-1": "04t1U000007c5HtQAI",
         "Lightning Flow File Upload Component@1.0.0-1": "04t1U000007c5HyQAI",
-        "Lightning Flow File Upload Component@1.0.1-1": "04t1U000007cBXfQAM"
+        "Lightning Flow File Upload Component@1.0.1-1": "04t1U000007cBXfQAM",
+        "Lightning Flow File Upload Component@1.0.1-2": "04t1U000007LjmMQAS",
+        "Lightning Flow File Upload Component@1.0.2-1": "04t1U000007LjmRQAS"
     }
 }
