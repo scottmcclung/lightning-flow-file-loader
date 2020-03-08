@@ -30,8 +30,8 @@ Click here to install the component to your sandbox.
 
 Use one of these links to install the component as an unlocked package.
 
-  * Production or Developer orgs: [https://login.salesforce.com/packaging/installPackage.apexp?p0=04t1U000007cBXfQAM](https://login.salesforce.com/packaging/installPackage.apexp?p0=04t1U000007LjmRQAS)
-  * Sandbox orgs: [https://test.salesforce.com/packaging/installPackage.apexp?p0=04t1U000007cBXfQAM](https://test.salesforce.com/packaging/installPackage.apexp?p0=04t1U000007LjmRQAS)
+  * Production or Developer orgs: [https://login.salesforce.com/packaging/installPackage.apexp?p0=04t1U000007LjmRQAS](https://login.salesforce.com/packaging/installPackage.apexp?p0=04t1U000007LjmRQAS)
+  * Sandbox orgs: [https://test.salesforce.com/packaging/installPackage.apexp?p0=04t1U000007LjmRQAS](https://test.salesforce.com/packaging/installPackage.apexp?p0=04t1U000007LjmRQAS)
 
 
 #### Using SFDX
